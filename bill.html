@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill Payment</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background:linear-gradient(white,#3ae374);
+			background-size: all;
+		}
+		.box{
+			background-image: linear-gradient(white,#3ae374);
+			width: 500px;
+			height: 665px;
+			margin-top: 100px;
+			margin-left: 520px;
+			border-color: 1px white;
+			border-radius: 5px;
+		}
+		.head{
+			background-image:linear-gradient(#3ae374,#fff);
+			border-radius: 5px;
+		}
+		.container{
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<header class="head">
+			<h1 style="padding: 25px 35px;">Indian Electricty Bill Payment</h1>
+		</header>
+		<h2 style="margin-left: 150px">MAKE PAYMENT</h2>
+
+		<p style="margin-left: 5px;font-size: 20px;">Low Tension Users,Select your State name below to proceed.</p>
+
+		<div class="container">
+			<input style="font-size: 20px; padding: 10px 5px; margin-left: 105px; margin-top: 25px;
+            border-style: outset;border-color: black;border-radius: 5px;background-color: transparent;
+			" type="text" name="" placeholder="Enter Your State Name"><br>
+			<input style="font-size: 20px; padding: 10px 5px; margin-left: 105px; margin-top: 25px;
+            border-style: outset;border-color: black;border-radius: 5px;background-color: transparent;
+			" type="text" name="" placeholder="Enter ERO"><br>
+			<input style="font-size: 20px; padding: 10px 5px; margin-left: 105px; margin-top: 25px;
+            border-style: outset;border-color: black;border-radius: 5px;background-color: transparent;
+			" type="text" name="" placeholder="Enter Your Service Number"><br>
+			<p style="font-size: 20px; font-weight: 800;">Type of Payment</p>
+			<input style="margin-left: 100px;" 
+			 type="radio" name="Payment" value="Current Payment">Current Payment</input>
+		    <input 
+		    type="radio" name="Payment" value="Advance Payment">Advance Payment</input>	
+		    <button style="padding: 5px 5px; font-size: 20px; font-weight: 800;margin-left: 150px;margin-top: 35px;cursor: pointer;background-color: transparent;">Make Payment</button>	
+		</div>
+	</div>
+</body>
+</html>
